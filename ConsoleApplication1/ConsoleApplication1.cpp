@@ -20,6 +20,7 @@ void calculerSalaire(string ficLire, string ficEcrire) {
         		salaire = (40 * tauxHoraire) + ((heure - 40) * (tauxHoraire * 1.5));
 		else 
             		salaire = heure * tauxHoraire;
+		ficEcrire<< nom<< " "<<salaire;
         }
             
 
